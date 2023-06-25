@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schiebespiel.Controller">
+   <children>
+      <Button fx:id="fieldOne" disable="true" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onePressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: Lightblue;" text="1" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldTwo" disable="true" layoutX="121.0" layoutY="14.0" mnemonicParsing="false" onAction="#twoPressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: lightgrey;" text="2" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldThree" disable="true" layoutX="228.0" layoutY="14.0" mnemonicParsing="false" onAction="#threePressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: Lightblue;" text="3" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldFour" disable="true" layoutX="335.0" layoutY="14.0" mnemonicParsing="false" onAction="#fourPressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: lightgrey;" text="4" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldFive" disable="true" layoutX="14.0" layoutY="121.0" mnemonicParsing="false" onAction="#fivePressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: lightgrey;" text="5" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldSix" disable="true" layoutX="121.0" layoutY="121.0" mnemonicParsing="false" onAction="#sixPressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: Lightblue;" text="6" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldSeven" disable="true" layoutX="228.0" layoutY="121.0" mnemonicParsing="false" onAction="#sevenPressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: lightgrey;" text="7" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldEight" disable="true" layoutX="335.0" layoutY="121.0" mnemonicParsing="false" onAction="#eightPressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: Lightblue;" text="8" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldNine" disable="true" layoutX="14.0" layoutY="229.0" mnemonicParsing="false" onAction="#ninePressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: Lightblue;" text="9" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldTen" disable="true" layoutX="121.0" layoutY="229.0" mnemonicParsing="false" onAction="#tenPressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: lightgrey;" text="10" textFill="GREEN">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldEleven" disable="true" layoutX="228.0" layoutY="229.0" mnemonicParsing="false" onAction="#elevenPressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: Lightblue;" text="11" textFill="GREEN">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldBlank" disable="true" layoutX="335.0" layoutY="336.0" mnemonicParsing="false" prefHeight="107.0" prefWidth="107.0">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Label fx:id="winLabel" alignment="CENTER" layoutX="139.0" layoutY="153.0" prefHeight="86.0" prefWidth="173.0" text="WIN" textFill="RED" visible="false">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="restartButton" layoutX="172.0" layoutY="235.0" mnemonicParsing="false" onAction="#restart" prefHeight="53.0" prefWidth="114.0" text="Restart">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="solveButton" disable="true" layoutX="165.0" layoutY="455.0" mnemonicParsing="false" onAction="#solve" text="Solve" />
+      <Label layoutX="222.0" layoutY="460.0" text="Solved:" />
+      <Label fx:id="plays" layoutX="272.0" layoutY="461.0" text="0" />
+      <Button fx:id="field13" disable="true" layoutX="14.0" layoutY="336.0" mnemonicParsing="false" onAction="#oneThreePressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: lightgrey;" text="13" textFill="GREEN">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button fx:id="field14" disable="true" layoutX="121.0" layoutY="336.0" mnemonicParsing="false" onAction="#oneFourPressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: Lightblue;" text="14" textFill="GREEN">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button fx:id="field15" disable="true" layoutX="228.0" layoutY="336.0" mnemonicParsing="false" onAction="#oneFivePressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: lightgrey;" text="15" textFill="GREEN">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button fx:id="fieldTwelve" disable="true" layoutX="335.0" layoutY="229.0" mnemonicParsing="false" onAction="#twelvePressed" prefHeight="107.0" prefWidth="107.0" style="-fx-background-color: lightgrey;" text="12" textFill="GREEN">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
